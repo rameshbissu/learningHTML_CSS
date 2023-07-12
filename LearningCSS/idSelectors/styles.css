@@ -1,0 +1,9 @@
+/* ID Selectors */
+#title{
+    color: red;
+    background-color: black;
+}
+#subHeading{
+    color: green;
+    background-color: gray;
+}
