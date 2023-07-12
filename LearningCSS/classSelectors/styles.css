@@ -1,0 +1,8 @@
+/* Class Selectors in CSs */
+.green{
+    color: green;
+}
+.red{
+    color: red;
+    background-color: gray;
+}
