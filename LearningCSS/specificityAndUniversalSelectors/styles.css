@@ -1,0 +1,31 @@
+/* specificity of selectors and Universal Selectors */
+
+/* Universal selector */
+/* Universal selector has low specificity than other selectors, it means if we apply properties on an element with another slectors before universal selector and later if we overwrite element's property with universal selector, overwriten properties would not be applied because of low specificity of the universal selector, we can understand this by below example...*/
+/* p{
+    color: seagreen;
+}
+.paragraphs{
+    color: skyblue;
+}
+*{
+    color: red;
+} */
+
+/* class selectors have more specificity than name selectors, skyblue value will be applied, however we overwriten the color property later by name selector,
+Example below : */
+/* .paragraphs{
+    color: skyblue;
+}
+p{
+    color: magenta;
+} */
+
+/* ID selectos have more specificity than class selectos, skyblue value will be applied, however we overwriten the color property later by class selector,
+Example below : */
+/* #para1{
+    color: skyblue;
+}
+.paragraphs{
+    color: crimson;
+} */
