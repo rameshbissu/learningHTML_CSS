@@ -1,0 +1,24 @@
+/* CSS Color values by RGBA (Red,Green,Blue,Alpha/opacity) */
+/* 1 means full opacity and 0 means low opacity,
+we can give value in float like 0.999,0.8,0.35,0.11 */
+
+#heading1{
+    color: rgba(255, 0, 0, 0.995);
+    background-color: rgba(153, 255, 0, 1);
+}
+#heading2{
+    color: rgba(255, 0, 0, 0.8);
+    background-color: rgba(153, 255, 0, 0.8);
+}
+#heading3{
+    color: rgba(255, 0, 0, 0.6);
+    background-color: rgba(153, 255, 0, 0.6);
+}
+#heading4{
+    color: rgba(255, 0, 0, 0.4);
+    background-color: rgba(153, 255, 0, 0.4);
+}
+#heading5{
+    color: rgba(255, 0, 0, 0.2);
+    background-color: rgba(153, 255, 0, 0.2);
+}
