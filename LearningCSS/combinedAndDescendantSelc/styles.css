@@ -1,0 +1,7 @@
+/* combined selectors */
+.container p{
+    color: skyblue;
+}
+.container #heading{
+    color: salmon;
+}
