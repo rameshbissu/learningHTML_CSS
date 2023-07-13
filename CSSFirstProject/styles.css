@@ -1,0 +1,10 @@
+.container .icon{
+    color: red;
+    font-size: 40px;
+}
+.container #title1,.container #title2{
+    color: blue;
+}
+.container p{
+    color: gray;
+}
