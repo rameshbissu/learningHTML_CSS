@@ -1,0 +1,22 @@
+/* CSS Colors by Name of colors */
+
+#heading1{
+    color: red;
+    background-color: greenyellow;
+}
+#heading2{
+    color: green;
+    background-color: skyblue;
+}
+#heading3{
+    color: blue;
+    background-color: dimgray;
+}
+#heading4{
+    color: yellow;
+    background-color: black;
+}
+#heading5{
+    color: pink;
+    background-color: seagreen;
+}
