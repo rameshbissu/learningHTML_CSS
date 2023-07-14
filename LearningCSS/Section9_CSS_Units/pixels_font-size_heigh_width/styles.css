@@ -1,0 +1,11 @@
+/* Pixels : absolute values, one dot on the screen
+font-size : size of the font
+height : height of an element
+width : width of an element */
+h2{
+    font-size: 60px;
+    background-color: rgb(24, 24, 228);
+    color: #fff;
+    width: 250px;
+    height: 400px;
+}
