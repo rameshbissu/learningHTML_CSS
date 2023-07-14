@@ -1,0 +1,17 @@
+/* rem : Relative, depends on root
+1rem = base value (16px) * number (1) */
+html {
+  font-size: 30px;
+  /* Now our class="relative" heading3's font-size is depends on root element which is html not div  */
+}
+div {
+  font-size: 5px;
+}
+.absolute {
+  font-size: 32px;
+  color: rgb(255, 68, 99);
+}
+.relative {
+  font-size: 2rem;
+  color: rgb(40, 194, 255);
+}
