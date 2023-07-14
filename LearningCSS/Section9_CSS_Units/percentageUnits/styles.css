@@ -1,0 +1,11 @@
+/* Percentage values are relative to the parent elements */
+.outer{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(35, 127, 75);
+}
+.inner{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(221, 131, 146);
+}
