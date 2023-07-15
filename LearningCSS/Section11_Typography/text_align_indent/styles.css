@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+body {
+  font-family: "Kalam", cursive;
+}
+.main-heading {
+  /* text will be on right side */
+  text-align: right;
+}
+.sub-heading {
+  /* text will be on left(default value) side */
+  text-align: left;
+}
+.one {
+  /* text will be in center */
+  text-align: center;
+}
+.two {
+  /* first line start after 60px of gap and rest will start from default */
+  text-indent:60px;
+}
