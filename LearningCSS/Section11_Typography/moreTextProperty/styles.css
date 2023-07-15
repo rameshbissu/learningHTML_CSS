@@ -1,0 +1,44 @@
+/* line height : if number * by font size
+letter spacing
+word spacing
+text transform
+text decoration */
+body{
+    font-size: 20px;
+    /* font-size * line-height value 20*2 = 40px line height  */
+    line-height: 2;
+    line-height:50px;
+}
+#heading1{
+    /* text-decoration: underline/overline dashed/dotted/double/wavy/solid ; */
+    text-decoration: underline;
+}
+#heading1{
+    /* text-decoration: underline/overline dashed/dotted/double/wavy/solid ; */
+    text-decoration: overline;
+}
+#heading2{
+    text-decoration: underline dashed;
+    text-transform: capitalize;
+}
+#heading3{
+    text-decoration: underline dotted;
+    text-transform: lowercase;
+}
+#heading4{
+    text-decoration: underline double;
+    text-transform: uppercase;
+}
+#heading5{
+    text-decoration: underline wavy;
+    text-transform: none;
+}
+.one{
+    letter-spacing: 5px;
+}
+.two{
+    word-spacing: 15px;
+}
+.three{
+    text-transform: capitalize;
+}
