@@ -1,0 +1,10 @@
+/* use google fonts by import google fonts in css file */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:ital,wght@0,400;0,900;1,400&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+h1 {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+}
