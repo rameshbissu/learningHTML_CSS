@@ -1,0 +1,25 @@
+/* CSS Box Model */
+/* margin 4sides + shorthand */
+*{
+    margin: 0;
+}
+h2,p{
+    color: #fff;
+}
+h2{
+    background-color: #ff3254;
+    padding: 30px;
+    margin: 3rem;
+    /* margin-top: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 4rem;
+    margin-left: 5rem; */
+}
+p{
+    background-color: rgb(42, 195, 255);
+    /* margin: 20px 40px; */
+    margin: 10px 20px 30px 40px;
+    /* padding: 50px; */
+    /* padding: 30px 50px; */
+    padding: 5px 20px 40px 30px;
+}
