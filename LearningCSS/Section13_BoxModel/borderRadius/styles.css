@@ -1,0 +1,21 @@
+/* CSS Box Model */
+/* Border-radius and Negative margin */
+*{
+    margin: 0;
+}
+h2,p{
+    color: #fff;
+}
+h2{
+    background-color: #ff3254;
+    padding: 30px;
+    border: 15px solid #000000;
+    border-radius: 30px;
+}
+p{
+    background-color: rgb(42, 195, 255);
+    padding: 15px;
+    border: 7px dotted #08a908;
+    border-radius: 50%;
+    margin-top: -50px;
+}
