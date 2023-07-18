@@ -1,0 +1,24 @@
+/* CSS Box Model */
+/* Padding 4sides + shorthand */
+
+h2,p{
+    color: #fff;
+}
+h2{
+    background-color: #ff3254;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+p{
+    background-color: rgb(42, 195, 255);
+    /* 1 value in padding property mean value will be applied to all sides */
+    /* padding: 50px; */
+
+    /* 2 value in padding property means 1value will be applied to top-bottom and 2value will be applied to right-left */
+    /* padding: 30px 60px; */
+    
+    /* 4 value in padding property means 1value will be applied to top side,2nd will be right,3rd will be bottom and 4th will be applied on left */
+    padding: 10px 20px 30px 40px;
+}
