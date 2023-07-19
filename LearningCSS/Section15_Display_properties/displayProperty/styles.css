@@ -1,0 +1,15 @@
+/* BLOCK : always starts from new line and spans full width */
+/* INLINE : Does not start a new line and spans only content */
+
+.block{
+    background: #0183b6;
+    color: #fff;
+    display: block;
+    display: inline;
+}
+.inline{
+    background: #c70505;
+    color: #fff;
+    display: inline;
+    display: block;
+}
