@@ -1,0 +1,13 @@
+div{
+    height: 300px;
+    color: #fff;
+}
+.big-img{
+    background: url(../images/big.jpeg);
+}
+.small-img{
+    background: url(../images/small.jpeg);
+}
+.folder-img{
+    background: url(../images/folder-img.jpeg);
+}
