@@ -1,0 +1,20 @@
+div{
+    height: 300px;
+    color: #ffffff;
+    border: 2px solid rgb(255, 11, 92);
+}
+.big-img{
+    background: url(../images/big.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.small-img{
+    background: url(../images/small.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.folder-img{
+    background: url(../images/folder-img.jpeg);
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+}
