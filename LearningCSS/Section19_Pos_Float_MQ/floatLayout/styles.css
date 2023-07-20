@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 200px;
+    width: 50%;
+    float: right;
+}
+.one{
+    background: rgb(255, 73, 73);
+}
+.two{
+    background: rgb(12, 192, 12);
+}
+.three{
+    background: rgb(64, 182, 229);
+}
+.four{
+    background: rgb(218, 229, 64);
+}
+h1{
+    clear: both;
+}
