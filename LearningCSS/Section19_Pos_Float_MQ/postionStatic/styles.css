@@ -1,0 +1,19 @@
+div{
+    border: 3px solid red;
+    background: yellow;
+    margin-top: 40px;
+    text-align: right;
+}
+.one{
+    background: blue;
+    color: #fff;
+}
+.two{
+    background: green;
+    color: #fff;
+}
+.special{
+    background: pink;
+    font-size: 20px;
+    color: #222;
+}
