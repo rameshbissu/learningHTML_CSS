@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  color: #ffffff;
+  border: 2px solid rgb(255, 11, 92);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.big-img {
+  background: url(../images/big.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.small-img {
+  background: url(../images/folder-img.jpeg) center/cover no-repeat fixed;
+}
+.folder-img {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.3),
+      rgba(230, 1, 255, 0.5)
+    ),
+    url(../images/big.jpeg) center/cover no-repeat fixed;
+}
