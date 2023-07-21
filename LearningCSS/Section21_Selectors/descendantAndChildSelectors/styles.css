@@ -1,0 +1,15 @@
+/* Descendant Selectors */
+
+.header h1{
+    color: green;
+}
+/* direct child select ( > ) */
+.header > h1{
+    color: purple;
+}
+div h1{
+    color: red;
+}
+div > h1{
+    color: blue;
+}
