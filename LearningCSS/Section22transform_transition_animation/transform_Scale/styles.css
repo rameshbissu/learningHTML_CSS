@@ -1,5 +1,5 @@
 /* 
-transform: transalte(),scale(),rotate(),skew()
+transform: transalte(), scale(), rotate(), skew()
 */
 
 div{
@@ -19,5 +19,4 @@ div{
     background:green;
     transform: scale(1.2,1.5);
     transform: scale(2);
-
 }
