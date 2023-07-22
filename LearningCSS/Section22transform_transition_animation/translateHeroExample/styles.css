@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+.hero{
+    min-height: 100vh;
+    position: relative;
+}
+.hero-center{
+    border: 2px solid red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 300px;
+}
