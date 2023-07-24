@@ -1,0 +1,24 @@
+/* 
+transform: transalte(),scale(),rotate(),skew()
+*/
+
+div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+div:hover{
+    background-color: rgb(78, 205, 255);
+}
+.one{
+    background:red;
+}
+.two{
+    background:blue;
+}
+.three{
+    background:green;
+    transition-property: background;
+    transition-duration: 4s;
+
+}
