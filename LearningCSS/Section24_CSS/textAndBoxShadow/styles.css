@@ -1,0 +1,21 @@
+/* 
+    text-shadow
+    box-shadow
+} */
+h1{
+    /* text-shadow: x-axis y-axis blur color ; */
+    text-shadow: 2px 2px 5px red;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    margin: 20px;
+    /* box-shadow: x-axis y-axis blur spread color ; */
+    box-shadow: 2px 2px 5px green;
+    transition:  2s ease-in-out;
+}
+.box:hover{
+    box-shadow: -26px 89px 67px 36px skyblue;
+}
+
