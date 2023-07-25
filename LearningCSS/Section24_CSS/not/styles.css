@@ -1,0 +1,9 @@
+/* 
+    :not()
+    The :is() CSS pseudo-class represents elements that do not match a list of selectors. Since it prevents specific items from being selected.
+
+*/
+
+.special :not(h1) {
+  color: red;
+}
