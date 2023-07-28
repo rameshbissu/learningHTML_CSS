@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      /* align-content */
+      /* stretch, flex-start, flex-end, center,
+      space-around, space-between */
+
+      .container {
+        height: 300px;
+        height: 70vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: stretch;
+        /* align-content: flex-end; */
+        /* align-content: flex-start; */
+        /* align-content: center; */
+        /* align-content: space-around; */
+        /* align-content: space-between; */
+        /* align-content: space-evenly; */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- parent = flexbox container  -->
+    <div class="container">
+      <!-- children = flex-items  -->
+      <div class="box box-1">1</div>
+      <div class="box box-2">2</div>
+      <div class="box box-3">3</div>
+      <div class="box box-4">4</div>
+      <div class="box box-5">5</div>
+      <div class="box genric">G</div>
+      <div class="box genric">G</div>
+      <div class="box genric">G</div>
+      <div class="box genric">G</div>
+      <div class="box genric">G</div>
+    </div>
+  </body>
+</html>
