@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid tutorial</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        /* Units in grid */
+        /* px rem em % auto fr */
+        .container{
+            display: grid;
+            grid-template-columns: 200px 15rem; 
+            grid-template-columns: 20em 15rem; 
+            grid-template-columns: 30% 50%; 
+            grid-template-columns: 30% auto; 
+            grid-template-columns: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cell cell-1">cell 1</div>
+        <div class="cell cell-2">cell 2</div>
+        <div class="cell cell-3">cell 3</div>
+        <div class="cell cell-4">cell 4</div>
+        <div class="cell cell-5">cell 5</div>
+        <div class="cell cell-6">cell 6</div>
+        <div class="cell cell-7">cell 7</div>
+    </div>
+</body>
+</html>
