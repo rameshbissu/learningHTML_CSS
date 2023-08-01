@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid tutorial</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        .container{
+            display: grid;
+            /* one column layout  */
+            grid-template-columns: 200px;
+            /* two column layout  */
+            grid-template-columns: 200px 300px;
+            /* three column layout  */
+            grid-template-columns: 200px 300px 150px;
+            /* four column layout  */
+            grid-template-columns: 200px 300px 150px 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cell">cell 1</div>
+        <div class="cell">cell 2</div>
+        <div class="cell">cell 3</div>
+        <div class="cell">cell 4</div>
+        <div class="cell">cell 5</div>
+        <div class="cell">cell 6</div>
+        <div class="cell">cell 7</div>
+    </div>
+</body>
+</html>
