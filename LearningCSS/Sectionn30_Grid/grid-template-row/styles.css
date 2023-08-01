@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222;
+}
+.container{
+    border: 5px solid #000;
+}
+.cell{
+    padding: 2rem;
+    background: #e4bbbb;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid red;
+}
+.cell-1{
+    background: #f34064;
+}
+.cell-2{
+    background: #fa2dce;
+}
+.cell-3{
+    background: #9c40f3;
+}
+.cell-4{
+    background: #6440f3;
+}
+.cell-5{
+    background: #409cf3;
+}
+.cell-6{
+    background: #40f367;
+}
+.cell-7{
+    background: #eaf340;
+}
